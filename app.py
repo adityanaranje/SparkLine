@@ -87,7 +87,7 @@ def main():
     if username == "AdityaNaranje":
         tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs(["Outreach", "JD Match", "Q&A Prep", "PrepWeek", "YourActivity","Contact","All Activities"])
     else:
-        tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Outreach", "JD Match", "Q&A Prep", "PrepWeek","Contact", "YourActivity"])
+        tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs(["Outreach", "JD Match", "Q&A Prep", "PrepWeek","YourActivity","Contact"])
 
     with tab1:
         st.write_stream(stream_data("##### Craft a professional cold email tailored to the job description."))
@@ -371,3 +371,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
