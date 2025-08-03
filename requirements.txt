@@ -11,4 +11,4 @@ datetime
 markdown
 xhtml2pdf
 requests
-argon2
+argon2-cffi
