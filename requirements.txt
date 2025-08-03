@@ -1,0 +1,16 @@
+streamlit
+langchain_groq
+dotenv
+langchain_core
+langchain_community
+pandas
+pysqlite3-binary
+bs4
+base64
+time
+datetime
+markdown
+xhtml2pdf
+requests
+argon2
+re
