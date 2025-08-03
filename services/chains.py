@@ -3,7 +3,7 @@ from langchain_core.prompts import PromptTemplate
 import os
 from dotenv import load_dotenv
 load_dotenv()
-my_key = os.getenv("GROQ_API_KEY")
+my_key = st.secrets["api_keys"]["groqapi"]
 
 
 
@@ -201,5 +201,6 @@ class Chain:
         )
         prep_plan_chain = prep_plan_prompt | self.llm
         return prep_plan_chain
+
 
     
