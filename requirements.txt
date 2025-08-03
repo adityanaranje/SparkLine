@@ -6,7 +6,7 @@ langchain_community
 pandas
 pysqlite3-binary
 bs4
-base64
+pybase64
 time
 datetime
 markdown
